@@ -1,0 +1,183 @@
+{
+  "id" : "collection-6e91e991",
+  "name" : "admin-service-features",
+  "isFolder" : false,
+  "topMostLevel" : true,
+  "items" : [ {
+    "id" : "request-639b3ab2",
+    "name" : "createFeature",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "http://localhost:8085/api/v1/feature",
+        "method" : "POST",
+        "jsonBody" : {
+          "featureKey" : "sakshi",
+          "limitations" : {
+            "limitations" : [ {
+              "type" : "type 1",
+              "details" : {
+                "key" : "key 100",
+                "value" : "value 1"
+              }
+            }, {
+              "type" : "type 1666690",
+              "details" : {
+                "key" : "key 100",
+                "value" : "value 1"
+              }
+            } ]
+          },
+          "metadata" : {
+            "name" : "new111",
+            "description" : "Knowlioforge new : Running the whole collection and folder with some extra configurations."
+          }
+        },
+        "headers" : [ {
+          "id" : 0,
+          "key" : "Authorization",
+          "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzYWtzaGkubWFtZ2FpbkBvYmplY3RpdmVodWIuY29tIiwiZXhwIjoxNzEzNzAzODIwLCJpYXQiOjE3MTExMTE4MjB9.rNHB-qIeOBHy_4iaCzdXqRtaIJC8ASpU7OiSY-WivFuvPmkTdHDjQNkM2xgg1MLOgAcndRi_0Fy49eqm6ipepg",
+          "enable" : true,
+          "deleted" : false
+        } ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  }, {
+    "id" : "request-eefd32aa",
+    "name" : "update features",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "http://localhost:8085/api/v1/feature",
+        "method" : "PUT",
+        "authorization" : {
+          "type" : "basic",
+          "data" : [ {
+            "key" : "password",
+            "value" : "defhhhhhh",
+            "type" : "string"
+          }, {
+            "key" : "username",
+            "value" : "abc",
+            "type" : "string"
+          } ]
+        },
+        "headers" : [ {
+          "id" : 0,
+          "key" : "Authorization",
+          "value" : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzYWtzaGkubWFtZ2FpbkBvYmplY3RpdmVodWIuY29tIiwiZXhwIjoxNzEzNzAzODIwLCJpYXQiOjE3MTExMTE4MjB9.rNHB-qIeOBHy_4iaCzdXqRtaIJC8ASpU7OiSY-WivFuvPmkTdHDjQNkM2xgg1MLOgAcndRi_0Fy49eqm6ipepg",
+          "enable" : true,
+          "deleted" : false
+        } ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  }, {
+    "id" : "request-06ffcbce",
+    "name" : "get all features of a plan",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8085/features",
+        "method" : "GET",
+        "headers" : [ ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  }, {
+    "id" : "request-a7f2952b",
+    "name" : "get feature on versiona nd feature key",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "http://localhost:8085/check",
+        "method" : "GET",
+        "jsonBody" : [ {
+          "featureKey" : "multiple workspaces",
+          "version" : "1"
+        }, {
+          "featureKey" : "workspaces",
+          "version" : "10"
+        } ],
+        "headers" : [ ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  }, {
+    "id" : "request-12b43c01",
+    "name" : "user/otp/validate",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "http://localhost:8085/user/otp/validate",
+        "method" : "POST",
+        "jsonBody" : {
+          "code" : "8974",
+          "contactType" : "EMAIL",
+          "userContact" : "sakshi.mamgain@objectivehub.com",
+          "otpType" : "LOGIN",
+          "otp" : "9411"
+        },
+        "authorization" : {
+          "type" : "bearer",
+          "data" : [ {
+            "key" : "token",
+            "value" : "78888880",
+            "type" : "string"
+          } ]
+        },
+        "headers" : [ ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  }, {
+    "id" : "request-17825fc4",
+    "name" : "user/otp/login",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-6e91e991",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "http://localhost:8085/user/otp/login",
+        "method" : "POST",
+        "jsonBody" : {
+          "code" : "8974",
+          "contactType" : "EMAIL",
+          "userContact" : "sakshi.mamgain@objectivehub.com",
+          "otpType" : "LOGIN"
+        },
+        "headers" : [ ],
+        "queryParams" : [ ]
+      }
+    },
+    "collectionId" : "collection-6e91e991"
+  } ],
+  "collectionId" : "collection-6e91e991"
+}
