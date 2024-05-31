@@ -1,0 +1,77 @@
+{
+  "id" : "collection-5ea94070",
+  "name" : "favourite",
+  "isFolder" : false,
+  "topMostLevel" : true,
+  "items" : [ {
+    "id" : "request-ee38c53c",
+    "name" : "mark favourite",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-5ea94070",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "mockId" : "mock_id-b652ccd8",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-5ea94070"
+  }, {
+    "id" : "request-75ffef96",
+    "name" : "mark favourite Copy",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-5ea94070",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "mockId" : "mock_id-218c0110",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-5ea94070"
+  }, {
+    "id" : "request-af7fc8f4",
+    "name" : "unmark fav",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-5ea94070",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "mockId" : "mock_id-13f5e213",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-5ea94070"
+  } ],
+  "collectionId" : "collection-5ea94070"
+}
