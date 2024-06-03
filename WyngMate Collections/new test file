@@ -1,0 +1,74 @@
+{
+  "id" : "collection-590ed5ca",
+  "name" : "favourite",
+  "isFolder" : false,
+  "topMostLevel" : true,
+  "items" : [ {
+    "id" : "request-efffbcad",
+    "name" : "mark favourite",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-590ed5ca",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-590ed5ca"
+  }, {
+    "id" : "request-e03bbf1a",
+    "name" : "mark favourite Copy",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-590ed5ca",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-590ed5ca"
+  }, {
+    "id" : "request-cab69d7f",
+    "name" : "unmark fav",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-590ed5ca",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ]
+      }
+    },
+    "collectionId" : "collection-590ed5ca"
+  } ],
+  "collectionId" : "collection-590ed5ca"
+}
