@@ -39,7 +39,7 @@
         "url" : "/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
         "method" : "PUT",
         "jsonBody" : { },
-        "mockId" : "mockrequest-c3a73322",
+        "mockId" : "mockrequest-3e8e3ab6",
         "headers" : [ ],
         "queryParams" : [ {
           "id" : 0,
