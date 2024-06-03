@@ -38,8 +38,8 @@
         "mode" : "RAW",
         "url" : "/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
         "method" : "PUT",
-        "jsonBody" : null,
-        "mockId" : "mockrequest-26732c5d",
+        "jsonBody" : { },
+        "mockId" : "mockrequest-1070d982",
         "headers" : [ ],
         "queryParams" : [ {
           "id" : 0,
@@ -48,7 +48,9 @@
           "enable" : true,
           "deleted" : false
         } ],
-        "response" : "",
+        "response" : {
+          "message" : "ss"
+        },
         "operations" : [ ]
       }
     },
