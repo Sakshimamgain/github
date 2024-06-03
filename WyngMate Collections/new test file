@@ -12,8 +12,18 @@
     "items" : [ ],
     "requestDetails" : {
       "actual" : {
+        "mode" : "RAW",
         "url" : "http://localhost:8084/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
         "method" : "PUT",
+        "jsonBody" : null,
+        "authorization" : {
+          "type" : "noauth",
+          "data" : [ {
+            "key" : "",
+            "value" : "",
+            "type" : null
+          } ]
+        },
         "headers" : [ ],
         "queryParams" : [ {
           "id" : 0,
@@ -21,7 +31,25 @@
           "value" : "collection-6d568bca",
           "enable" : true,
           "deleted" : false
-        } ]
+        } ],
+        "operations" : [ ]
+      },
+      "mock" : {
+        "mode" : "RAW",
+        "url" : "/collection/user/1d3993f2-5a75-44b9-8735-9411d5f87394/mark/fav",
+        "method" : "PUT",
+        "jsonBody" : null,
+        "mockId" : "mockrequest-a8904e71",
+        "headers" : [ ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "collectionId",
+          "value" : "collection-6d568bca",
+          "enable" : true,
+          "deleted" : false
+        } ],
+        "response" : "",
+        "operations" : [ ]
       }
     },
     "collectionId" : "collection-590ed5ca"
