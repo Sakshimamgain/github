@@ -13,7 +13,7 @@
     "requestDetails" : {
       "actual" : {
         "mode" : "RAW",
-        "url" : "https://stage-b2c-uae-oms.qac24svc.dev/api/v1/order/9714808489/latestvcpskhchdhdhdhdhpko",
+        "url" : "https://stage-b2c-uae-oms.qac24svc.dev/api/v1/order/9714808489/latestvcpskhchdhdhdhdhpkopp",
         "method" : "GET",
         "jsonBody" : null,
         "authorization" : {
@@ -128,7 +128,7 @@
         "mode" : "RAW",
         "method" : "GET",
         "jsonBody" : null,
-        "mockId" : "mockrequest-e81d3841",
+        "mockId" : "mockrequest-33f672df",
         "headers" : [ ],
         "response" : "",
         "operations" : [ ]
