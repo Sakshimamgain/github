@@ -1,0 +1,140 @@
+{
+  "id" : "collection-9b1fb71a",
+  "name" : "test Copy",
+  "isFolder" : false,
+  "topMostLevel" : true,
+  "items" : [ {
+    "id" : "request-b4f93acc",
+    "name" : "https://stage-b2c-uae-oms.qac24svc.dev/api/v1/order/9714808489/latest?status=BOOKED",
+    "isFolder" : false,
+    "topMostLevel" : false,
+    "parentId" : "collection-9b1fb71a",
+    "items" : [ ],
+    "requestDetails" : {
+      "actual" : {
+        "mode" : "RAW",
+        "url" : "https://stage-b2c-uae-oms.qac24svc.dev/api/v1/order/9714808489/latestvcpskhchdhdhdhdhpko",
+        "method" : "GET",
+        "jsonBody" : null,
+        "authorization" : {
+          "type" : "noauth",
+          "data" : [ {
+            "key" : "",
+            "value" : "",
+            "type" : null
+          } ]
+        },
+        "headers" : [ {
+          "id" : 0,
+          "key" : "authority",
+          "value" : "b2c-oms.qac24svc.dev",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 1,
+          "key" : "accept",
+          "value" : "application/json, text/plain, */*",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 2,
+          "key" : "accept-language",
+          "value" : "en-GB,en-US;q=0.9,en;q=0.8",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 3,
+          "key" : "authorization",
+          "value" : "Bearer eyJraWQiOiJYeC0wMUw4bHNETkkzWmt5blp0aUg3aUh4YmI5bjhnSXNCRUpkX0V6WlZrIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULnMxbzhqMkFiMzFDMERpZmNtUWRmc0hXMDBPRHp0cDI1ZEFKME4tUmw3a1UiLCJpc3MiOiJodHRwczovL2NhcnMyNC5va3RhcHJldmlldy5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNjY0MjczMjkyLCJleHAiOjE2NjQzNTk2OTIsImNpZCI6IjBvYWE5c3V5aDVQczd1SHZoMWQ2IiwidWlkIjoiMDB1YzBzYzZ5VU9naUJkUFMxZDYiLCJzY3AiOlsib3BlbmlkIiwicGhvbmUiLCJlbWFpbCIsInByb2ZpbGUiXSwiYXV0aF90aW1lIjoxNjY0MjY5NzIwLCJzdWItbmFtZSI6ImJhcnVuLnB1bmRoaXJAY2FyczI0LmNvbSIsInN1YiI6ImJhcnVuLnB1bmRoaXJAY2FyczI0LmNvbSIsImNvdW50cnkiOlsiSU4iLCJBRSIsIlRIIiwiS1NBIiwiQVUiLCJJRCJdLCJURVNUX0NSRUFURV9NT1ZFTUVOVCI6ZmFsc2UsIm1vYmlsZVBob25lIjoiOTMxOTg5NTk1MSIsImdyb3VwcyI6WyJFdmVyeW9uZSIsIkJJR19ERUFMRVIiLCJZQVJEX01BTkFHRVIiLCJVU0VSX01BTkFHRVIiLCJVQUVfS0VZX01BTkFHRVIiLCJVUExPQURfVVNFUiIsIk9QRVJBVElPTl9NQU5BR0VSIiwiVVNFUl9NQU5BR0VSX1YyIiwiQjJDX01BU1RFUl9EQVRBX0FETUlOIiwiVUFFX0tFWV9SRVFVRVNURVIiLCJCMkNfTUlTX0FETUlOIl0sImRlcHRzIjpbIkZJTkFOQ0UiLCJNQVJLRVRJTkciLCJSRVRBSUxTIiwiU0FMRVMiXSwidmVoaWNsZVR5cGUiOlsiQ0FSIiwiQklLRSJdfQ.mK6SOlFfQdqjMvWm-Tl00Kf2viRl7qy5Y4lckSzFLw3DeRWSSGSDbobcy2FEA3oCLX2YBcTjK8sS5AYDb5FN3bdRqP6DzzFVdLrqPr7uYMraqO5PDj6c7S7upclRwBGCoRQFAb2WB1G03su9-9PwTJPBVOKJg6GMvgVqenYxUP3gUL9INiG3siUROZas5iydSlfqC4TsBhRLqkGHPIdV-oUb-o0yfp-yPom-KxBY-8jZYFbBhO3WqYbo7FV27FkbWlyzq0NcRieZlBTnMsrh9yXF1ybW4PtxqayBytGYJvBQhngEViJYcLIkcmDRG-2bOywIgYgwgLe6v9Ke98i79A",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 4,
+          "key" : "origin",
+          "value" : "https://b2c-admin-panel.qac24svc.dev",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 5,
+          "key" : "referer",
+          "value" : "https://b2c-admin-panel.qac24svc.dev/",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 6,
+          "key" : "sec-ch-ua",
+          "value" : "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 7,
+          "key" : "sec-ch-ua-mobile",
+          "value" : "?0",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 8,
+          "key" : "sec-ch-ua-platform",
+          "value" : "\"Linux\"",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 9,
+          "key" : "sec-fetch-dest",
+          "value" : "empty",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 10,
+          "key" : "sec-fetch-mode",
+          "value" : "cors",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 11,
+          "key" : "sec-fetch-site",
+          "value" : "same-site",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 12,
+          "key" : "user-agent",
+          "value" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 13,
+          "key" : "x_country",
+          "value" : "AE",
+          "enable" : true,
+          "deleted" : false
+        }, {
+          "id" : 14,
+          "key" : "x_vehicle_type",
+          "value" : "car",
+          "enable" : true,
+          "deleted" : false
+        } ],
+        "queryParams" : [ {
+          "id" : 0,
+          "key" : "status",
+          "value" : "BOOKED",
+          "enable" : true,
+          "deleted" : false
+        } ],
+        "operations" : [ ]
+      },
+      "mock" : {
+        "mode" : "RAW",
+        "method" : "GET",
+        "jsonBody" : null,
+        "mockId" : "mockrequest-e81d3841",
+        "headers" : [ ],
+        "response" : "",
+        "operations" : [ ]
+      }
+    },
+    "collectionId" : "collection-9b1fb71a"
+  } ],
+  "collectionId" : "collection-9b1fb71a"
+}
